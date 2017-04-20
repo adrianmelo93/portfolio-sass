@@ -1,0 +1,17 @@
+
+.tex-escr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+
+  p {
+    font-size: 20px;
+    font-style: italic;
+    font-family: monospace;
+  }
+
+  &:hover{
+    color: red;
+  }
+}

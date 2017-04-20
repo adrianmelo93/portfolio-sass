@@ -1,0 +1,20 @@
+.image-hover {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+
+  .img img {
+    position: relative;
+    width: 200px;
+    height: 180px;
+    opacity: 1;
+    transition: all 200ms;
+
+
+    &:hover {
+      margin: 2rem;
+      border-radius: 2rem;
+    }
+  }
+
+}

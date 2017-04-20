@@ -1,0 +1,15 @@
+.main {
+  box-sizing: content-box;
+  width: 100%;
+  padding-top: 70px;
+  height: calc(100vh - 70px);
+  background-image: url("http://uploads.webflow.com/58ae3085db9c1e79296e70cd/58b07326725c009b387d831e_xi9d8yslno4-rawpixel-com.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .text {
+    color: #fff;
+  }
+}

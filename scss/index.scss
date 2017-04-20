@@ -1,0 +1,15 @@
+@import "./_normalize.scss";
+
+* {
+    position:relative;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+@import "./_navbar.scss";
+@import "./_main.scss";
+@import "./_image-hover.scss";
+@import "./_tex-escr.scss";
